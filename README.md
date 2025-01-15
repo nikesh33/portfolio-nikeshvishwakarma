@@ -29,6 +29,23 @@ Follow these steps to get the project running locally on your machine.
 
    ```
 
+2. **Navigate to the project directory**:
+
+   ```bash
    cd <project-directory>
+
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
    npm install
+
+   ```
+
+4. **Run the development server**:
+
+   ```bash
    npm run dev
+
+   ```
