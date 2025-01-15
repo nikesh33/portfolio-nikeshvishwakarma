@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Full Stack Development",
+    "icon": "FaLaptopCode",
+    "description": "Building responsive, high-performance web applications using modern frameworks for scalable and interactive user experiences."
+  },
+  {
+    "title": "Frontend Development",
+    "icon": "FaCode",
+    "description": "Creating dynamic, user-centric interfaces with React.js, HTML5, CSS3, and JavaScript, focused on performance and accessibility."
+  },
+  {
+    "title": "Backend Development",
+    "icon": "FaServer",
+    "description": "Developing secure, scalable server-side applications with Node.js and Express.js, including RESTful APIs and JWT authentication."
+  },
+  {
+    "title": "Database Management",
+    "icon": "FaDatabase",
+    "description": "Proficient in managing and designing databases with MongoDB, Postgress and SQL, optimizing data storage and retrieval for high-performance apps."
+  },
+  {
+    "title": "C++ Programming",
+    "icon": "FaCogs",
+    "description": "Skilled in C++ with expertise in Data Structures Algorithms, Object-Oriented Programming (OOPS). Proficient in STL for high-performance applications."
+  },
+  {
+    "title": "Python Programming",
+    "icon": "FaPython",
+    "description": "Solid understanding of Python basics, including libraries and frameworks, to build efficient solutions for a variety of tasks."
+  }
+]

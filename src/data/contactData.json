@@ -1,0 +1,27 @@
+[
+    {
+      "name": "GitHub",
+      "icon": "FaGithub",
+      "link": "https://github.com/nikesh33",
+      "color": "text-gray-300"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/nikeshvish",
+      "color": "text-blue-400"
+    },
+    {
+      "name": "X",
+      "icon": "FaTwitter",
+      "link": "https://x.com/NikeshV33",
+      "color": "text-blue-400"
+    },
+    {
+      "name": "Email",
+      "icon": "FaEnvelope",
+      "link": "mailto:nikeshvishwakarma33@gmail.com",
+      "color": "text-red-400"
+    }
+  ]
+  

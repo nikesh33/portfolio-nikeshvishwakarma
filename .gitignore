@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Dependency directory for yarn
+.yarn/
+
+# Environment variables
+.env
+
+# NPM package lock file (optional, depending on preference)
+package-lock.json
+
+# Yarn lock file (optional, depending on preference)
+yarn.lock
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+
+# Coverage directory for testing
+/coverage
+
+# Temporary files
+*.swp
+*.swo
+*.bak
