@@ -48,12 +48,16 @@ const ProfileCard = ({ aiDescription }) => {
           darkMode ? "text-gray-300" : "text-gray-900"
         } leading-relaxed`}
       >
-        I&apos;m <span className="text-blue-400 font-bold">Nikesh Vishwakarma</span>, a
-        passionate <span className="text-green-400 font-bold">Full-Stack Developer</span> and
+        I&apos;m{" "}
+        <span className="text-blue-400 font-bold">Nikesh Vishwakarma</span>, a
+        passionate{" "}
+        <span className="text-green-400 font-bold">Full-Stack Developer</span>{" "}
+        and
         <span className="text-blue-300 font-semibold"> Software Engineer</span>.
         I specialize in{" "}
         <span className="text-purple-300 font-semibold">frontend</span> and
-        <span className="text-green-300 font-semibold"> backend</span> development.
+        <span className="text-green-300 font-semibold"> backend</span>{" "}
+        development.
       </p>
 
       {/* See More About Me Button */}
@@ -72,7 +76,7 @@ const ProfileCard = ({ aiDescription }) => {
 
       {/* AI-based Dynamic Content */}
       <motion.p
-        className="mt-6 text-gray-300 bg-gradient-to-r from-purple-500 to-blue-500 p-4 rounded-xl shadow-lg"
+        className="max-h-min mt-6 text-gray-300 bg-gradient-to-r from-purple-500 to-blue-500 p-4 rounded-xl shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}

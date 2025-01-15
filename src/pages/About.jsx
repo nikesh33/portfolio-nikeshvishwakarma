@@ -8,7 +8,7 @@ const About = () => {
     "I’m a passionate Full-Stack Developer from India.",
     'Built several self-learning projects, <a href="/projects" class="text-teal-400 underline hover:text-teal-300">learn more</a>',
     'Sharing knowledge about frontend development on <a target="blank" href="https://github.com/nikesh33" class="text-teal-400 underline hover:text-teal-300">Github</a>',
-    'Writing technical blogs on <a href="/" class="text-teal-400 underline hover:text-teal-300">Medium</a>',
+    'Writing technical blogs on <a target="blank" href="https://medium.com/@nikeshvishwakarma33" class="text-teal-400 underline hover:text-teal-300">Medium</a>',
     'Let’s talk about how we can collaborate!  <a href="/contact" class="text-teal-400 underline hover:text-teal-300">Connect</a>',
   ];
 

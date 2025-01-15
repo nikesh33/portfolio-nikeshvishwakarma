@@ -12,7 +12,6 @@ const Home = () => {
   const aiDescription = useFetchAIContent();
   const { darkMode } = useDarkMode();
 
-  // Memoize iconComponents and gradientClass
   const iconComponents = {
     FaGithub,
     FaLinkedin,
