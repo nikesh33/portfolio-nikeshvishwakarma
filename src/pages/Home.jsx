@@ -55,7 +55,7 @@ const Home = () => {
                       : "bg-gradient-to-r from-blue-500 to-green-500"
                   }`}
                 >
-                  Let's Connect!
+                  Let&apos;s Connect!
                 </h1>
                 <p className="text-lg md:text-xl max-w-lg mx-auto">
                   Catch me on any of the platforms below!

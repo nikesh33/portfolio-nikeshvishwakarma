@@ -25,8 +25,23 @@
     "description": "Skilled in C++ with expertise in Data Structures Algorithms, Object-Oriented Programming (OOPS). Proficient in STL for high-performance applications."
   },
   {
+    "title": "JavaScript",
+    "icon": "FaJsSquare",
+    "description": "Crafting dynamic and interactive web applications using modern JavaScript (ES6+) fundamentals and advanced features."
+  },
+  {
     "title": "Python Programming",
     "icon": "FaPython",
     "description": "Solid understanding of Python basics, including libraries and frameworks, to build efficient solutions for a variety of tasks."
+  },
+  {
+    "title": ".NET Core Development",
+    "icon": "FaMicrosoft",
+    "description": "Building robust, scalable, and secure server-side web applications using .NET Core, C#, and related technologies."
+  },
+  {
+    "title": "Node.js",
+    "icon": "FaNodeJs",
+    "description": "Leveraging the power of Node.js to build fast, scalable, and efficient backend services with an event-driven, non-blocking architecture."
   }
 ]

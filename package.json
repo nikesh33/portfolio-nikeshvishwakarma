@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "dialogflow": "^1.2.0",
+    "dialogflow": "^4.0.3",
     "dotenv": "^16.4.7",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.16.0",
