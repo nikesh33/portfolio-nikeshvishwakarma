@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaCode } from "react-icons/fa";
 import Sidebar from "./Sidebar";
 import DarkLightToggleButton from "./DarkLightToggleButton";
 import logo from "../assets/images/logo.png";
@@ -20,7 +19,6 @@ const Navbar = () => {
           : "bg-gradient-to-r from-blue-600 to-blue-400"
       }`}
     >
-      {/* Hamburger Button (visible on small screens) */}
       {!isSidebarOpen && (
         <button
           aria-label="Toggle Sidebar"
@@ -33,7 +31,6 @@ const Navbar = () => {
         </button>
       )}
 
-      {/* Website Title */}
       <div className="flex items-center justify-start md:order-1 order-2">
         <img
           src={logo}
@@ -42,7 +39,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Dark/Light Mode Toggle Button */}
       <div className="flex-grow flex justify-center md:order-2 order-1">
         <DarkLightToggleButton
           darkMode={darkMode}
@@ -50,12 +46,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Playful Rotating Icon */}
-      <div className="relative flex items-center justify-center md:order-3 order-3">
-        <FaCode className="text-2xl md:text-3xl text-green-400 animate-spin" />
-      </div>
-
-      {/* Navigation Links (always visible on medium+ screens) */}
       <nav className="hidden md:flex space-x-4 bg-custom-bg-100 p-2 rounded-lg md:order-4 order-4">
         {["home", "about", "projects", "contact"].map((link, index) => (
           <NavLink
@@ -72,7 +62,6 @@ const Navbar = () => {
         ))}
       </nav>
 
-      {/* Sidebar Component (visible on small screens) */}
       <Sidebar
         isOpen={isSidebarOpen}
         toggleSidebar={toggleSidebar}
