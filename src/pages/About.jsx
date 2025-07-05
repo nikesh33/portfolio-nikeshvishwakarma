@@ -6,12 +6,13 @@ const About = () => {
   const { darkMode } = useDarkMode();
 
   const lines = [
-    "I'm a Software Engineer graduated with a Bachelor of Engineering in Computer Science and Engineering from Mumbai University.",
-    "I’m a passionate Full-Stack Developer.",
-    'Built several self-learning projects, <a href="/projects" class="text-teal-400 underline hover:text-teal-300">learn more</a>',
-    'Sharing knowledge about frontend development on <a target="blank" href="https://github.com/nikesh33" class="text-teal-400 underline hover:text-teal-300">Github</a>',
-    'Writing technical blogs on <a target="blank" href="https://medium.com/@nikeshvishwakarma33" class="text-teal-400 underline hover:text-teal-300">Medium</a>',
-    'Let’s talk about how we can collaborate!  <a href="/contact" class="text-teal-400 underline hover:text-teal-300">Connect</a>',
+    "Hi, I'm Nikesh Vishwakarma — a passionate Software Engineer from Mumbai who loves building for the web.",
+    "I specialize in crafting full-stack applications using the MERN stack and .NET Core, with a focus on clean, responsive user experiences.",
+    "From designing intuitive interfaces in React to building scalable APIs with Node.js and SQL, I enjoy bringing ideas to life through code.",
+    "I’ve worked on real-world projects like a salon management system, e-commerce store with Stripe integration, and a movie dashboard using the TMDb API.",
+    'I also share what I learn through <a target="_blank" href="https://medium.com/@nikeshvishwakarma33" class="text-teal-400 underline hover:text-teal-300">blog posts</a> and open-source projects on <a target="_blank" href="https://github.com/nikesh33" class="text-teal-400 underline hover:text-teal-300">GitHub</a>.',
+    "I believe in continuous learning, clean code, and building with intention.",
+    'If you’re looking to collaborate, work on a project, or just connect — <a href="/contact" class="text-teal-400 underline hover:text-teal-300">let’s talk</a>!',
   ];
 
   return (

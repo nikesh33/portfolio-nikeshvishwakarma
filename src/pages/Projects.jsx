@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FiSearch } from "react-icons/fi";
 import { useDarkMode } from "../context/DarkModeContext";
 import projectsData from "../data/projectsData.json";
+import Pagination from "../components/Pagination";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -24,6 +25,8 @@ const Projects = () => {
   const [filter, setFilter] = useState("");
   const [searchActive, setSearchActive] = useState(false);
   const inputRef = useRef(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const projectsPerPage = 6;
 
   useEffect(() => {
     setProjects(projectsData);
@@ -34,6 +37,10 @@ const Projects = () => {
       inputRef.current.focus();
     }
   }, [searchActive]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filter]);
 
   const containerStyles = darkMode
     ? "bg-gray-900 text-gray-200"
@@ -64,6 +71,14 @@ const Projects = () => {
     ).toLowerCase();
     return combinedText.includes(lowerFilter);
   });
+
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = filteredProjects.slice(
+    indexOfFirstProject,
+    indexOfLastProject
+  );
+  const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
 
   return (
     <main className={`min-h-screen ${containerStyles} p-6`}>
@@ -98,6 +113,7 @@ const Projects = () => {
             />
           </motion.div>
         </div>
+
         {!filter && (
           <h1
             className={`text-4xl font-bold text-center mb-8 ${titleStyles} font-poppins`}
@@ -105,13 +121,14 @@ const Projects = () => {
             Projects I&apos;ve Worked On
           </h1>
         )}
+
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
-          {filteredProjects.map((project, index) => (
+          {currentProjects.map((project, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
@@ -161,10 +178,19 @@ const Projects = () => {
             </motion.div>
           ))}
         </motion.div>
+
         {filteredProjects.length === 0 && (
           <p className="text-center mt-8 text-lg">
             No projects match your search.
           </p>
+        )}
+
+        {filteredProjects.length > projectsPerPage && (
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={setCurrentPage}
+          />
         )}
       </section>
     </main>

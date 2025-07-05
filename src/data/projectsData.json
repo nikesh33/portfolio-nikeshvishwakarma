@@ -1,5 +1,34 @@
 [
   {
+    "name": "Personal Portfolio",
+    "description": "A modern and responsive portfolio website built with React and Vite to showcase my projects, skills, and work experience. Features smooth navigation, animated components, and project cards with GitHub and live links. Optimized for performance and clean UI.",
+    "technologies": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "EmailJS"
+    ],
+    "liveLink": "https://portfolio-nikeshvishwakarma.vercel.app/",
+    "githubLink": "https://github.com/nikesh33/portfolio-nikeshvishwakarma",
+    "image": "https://i.postimg.cc/wvZRNDjh/Portfolio.png"
+  },
+  {
+    "name": "E-commerce Admin Panel",
+    "description": "A full-featured admin panel built with Angular, Node.js (TypeScript), PostgreSQL, and TypeORM. Supports product management, soft delete/restore, real-time image previews using Cloudinary, and robust CRUD operations.",
+    "technologies": [
+      "Angular",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "TypeORM",
+      "Cloudinary"
+    ],
+    "liveLink": "https://ecommerce-admin-panel-mocha.vercel.app/",
+    "githubLink": "https://github.com/nikesh33/ecommerce-admin-panel",
+    "image": "https://i.postimg.cc/FzTbwYrz/Annotation-2025-07-05-213015.png"
+  },
+  {
     "name": "E-Commerce Site",
     "description": "E-commerce site with product browsing, cart, checkout, and order tracking. Supports buying, selling, inventory management, Stripe payments, user authentication, reviews, and a seller dashboard.",
     "technologies": [
